@@ -22,54 +22,65 @@
   </div>
 
   <form action="https://tests.fomenko.top/echo/index.php" method="get">
+    <fieldset>
+      <legend><b>Тип кузова</b></legend>
+      <div>
+        <label for="type"></label>
+        <select name="type" id="type">
+          <option value="">Выберите тип</option>
+          <option value="sedan">Седан</option>
+          <option value="hatchback">Хетчбек</option>
+          <option value="crossover">Кроссовер</option>
+          <option value="suv">Внедорожник</option>
+          <option value="pickup">Пикап</option>
+          <option value="wagon">Универсал</option>
+          <option value="coupe">Купе</option>
+        </select>
+      </div>
+    </fieldset>
 
-    <div>
-      <label for="type"><b>Тип кузова</b></label>
-      <select name="type" id="type">
-        <option value="">Выберите тип</option>
-        <option value="sedan">Седан</option>
-        <option value="hatchback">Хетчбек</option>
-        <option value="crossover">Кроссовер</option>
-        <option value="suv">Внедорожник</option>
-        <option value="pickup">Пикап</option>
-        <option value="wagon">Универсал</option>
-        <option value="coupe">Купе</option>
-      </select>
-    </div>
+    <fieldset>
+      <legend><b>Выберите марку</b></legend>
+      <div>
+        <label for="model"></label>
+        <select name="model" id="model">
+          <option value="">выберите марку</option>
+          <option value="bmw">BMW</option>
+          <option value="lexus">Lexus</option>
+          <option value="opel">Opel</option>
+          <option value="mazda">Mazda</option>
+          <option value="porsche">Porsche</option>
+          <option value="skoda">Skoda</option>
+          <option value="renault">Renault</option>
+          <option value="toyota">Toyota</option>
+          <option value="mersedes-benz">Mersedes-Benz</option>
+        </select>
+      </div>
+    </fieldset>
 
-    <div>
-      <label for="model"><b>Выберите марку</b></label>
-      <select name="model" id="model">
-        <option value="">выберите марку</option>
-        <option value="bmw">BMW</option>
-        <option value="lexus">Lexus</option>
-        <option value="opel">Opel</option>
-        <option value="mazda">Mazda</option>
-        <option value="porsche">Porsche</option>
-        <option value="skoda">Skoda</option>
-        <option value="renault">Renault</option>
-        <option value="toyota">Toyota</option>
-        <option value="mersedes-benz">Mersedes-Benz</option>
-      </select>
-    </div>
+    <fieldset>
+      <legend><b>Страна производитель</b></legend>
+      <div>
+        <label for="country"></label>
+        <select name="country" id="country">
+          <option value=""> Выберите страну</option>
+          <option value="china">Китай</option>
+          <option value="germany">Германия</option>
+          <option value="japan">Япония</option>
+          <option value="usa">США</option>
+          <option value="france">Франция</option>
+          <option value="italy">Италия</option>
+        </select>
+      </div>
+    </fieldset>
 
-    <div>
-      <label for="country"><b>Страна производитель</b></label>
-      <select name="country" id="country">
-        <option value=""> Выберите страну</option>
-        <option value="china">Китай</option>
-        <option value="germany">Германия</option>
-        <option value="japan">Япония</option>
-        <option value="usa">США</option>
-        <option value="france">Франция</option>
-        <option value="italy">Италия</option>
-      </select>
-    </div>
-
-    <div>
-      <label for="color">Цвет</label>
-      <input name="color" id="color" type="color">
-    </div>
+    <fieldset>
+      <legend><b>Цвет</b></legend>
+      <div>
+        <label for="color"></label>
+        <input name="color" id="color" type="color">
+      </div>
+    </fieldset>
 
     <fieldset>
       <legend><b>Выберите цену</b></legend>
